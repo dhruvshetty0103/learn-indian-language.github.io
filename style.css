@@ -1,0 +1,47 @@
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  background: url(https://images.unsplash.com/photo-1491309055486-24ae511c15c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(245, 228, 228);
+}
+
+hr {
+  margin: 20px auto;
+  color: #f05f44;
+  border: 3px solid #f05f44;
+  max-width: 72px;
+  opacity: 1;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border: 3px solid #f05f44;
+  --bs-btn-hover-bg:white;
+  --bs-btn-hover-color:#f05f44;
+  --bs-btn-hover-border-color:var(--bs-btn-hover-color);
+}
+
+.btn-primary:hover {
+    border-width: 4px;
+  }
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+
